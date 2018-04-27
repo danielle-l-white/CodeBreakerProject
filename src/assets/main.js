@@ -57,7 +57,7 @@ function getResults(input) {
 			html += '<span class="glyphicon glyphicon-transfer"></span>';
 		}
 		else {
-			html += '<span class="glyphicon glyphicon-remove"></span>';
+			html += '<span class="glyphicon glyphicon-remove"></span>'; 
 		}
 	}
 	html += '<div></div>';
