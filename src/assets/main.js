@@ -69,7 +69,7 @@ function getResults(input) {
 	return false;
 }
 
-function showAnswer() {
+function showAnswer(success) {
 	let code = document.getElementById('code');
 	if (success) {
 		code.className += 'success';
